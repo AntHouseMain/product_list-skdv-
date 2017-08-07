@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../Task_2/styles/style.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.27/css/uikit.min.css" />
+    <!-- jQuery is required -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.27/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.27/js/uikit-icons.min.js"></script>
+    <script src="../Task_2/scripts/polyfil.js"></script>
+    <script src="../Task_2/scripts/productItem.js"></script>
+    
+    <title>List of products</title>
+  </head>
+  <body>
+    <div class="uk-container">
+      <div class="uk-grid">
+        <div class="uk-width-1-4">
+          <p>Mypage</p>
+        </div>
+        <div class="uk-width-3-4">
+          <ul class="uk-tab" data-uk-tab>
+              <li class="uk-active"><a href="#">Product list</a></li>
+              <li><a id="showWatchlist" href="#">Watchlist <span id="numbOfProducts">0</span></a></li>
+          </ul>
+          <ul class="uk-switcher uk-margin">
+            <li>
+              <div id="product-list" class="uk-grid"></div>
+            </li>
+            <li>
+              <div class="product-watchlist uk-grid" id="product-watchlist"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+      <script src="../Task_2/scripts/main.js"></script>
+
+
+  </body>
+</html>
